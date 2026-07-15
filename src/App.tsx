@@ -824,7 +824,7 @@ export default function LeadGenProposal() {
         </div>
       </div>
 
-      <div style={{ maxWidth: 920, margin: "0 auto", padding: "0 24px 90px" }}>
+      <div style={{ padding: "0 24px 90px" }}>
         {/* ── EXECUTIVE SUMMARY ──────────────────────────── */}
         <Section
           num="01"
