@@ -534,7 +534,7 @@ export default function LeadGenProposal() {
       if (!r) return;
       const o = new IntersectionObserver(
         ([e]) => {
-          if (e.isIntersecting) setVisible((p) => new Set([...p, i]));
+          if (e.isIntersecting) setVisible((p) => new Set(p).add(i));
         },
         { threshold: 0.15 }
       );
