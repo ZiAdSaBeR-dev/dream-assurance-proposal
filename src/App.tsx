@@ -458,7 +458,6 @@ function Section({ num, title, subtitle, children, tag }: SectionProps) {
               color: C.muted,
               marginTop: 8,
               lineHeight: 1.6,
-              maxWidth: 620,
             }}
           >
             {subtitle}
@@ -838,7 +837,6 @@ export default function LeadGenProposal() {
               lineHeight: 1.85,
               margin: "0 0 16px",
               fontSize: 14.5,
-              maxWidth: 740,
             }}
           >
             Zero Limit Agency has built an automated business development engine
@@ -856,7 +854,6 @@ export default function LeadGenProposal() {
               lineHeight: 1.85,
               margin: "0 0 22px",
               fontSize: 14.5,
-              maxWidth: 740,
             }}
           >
             <strong style={{ color: C.white }}>Legal conclusion:</strong> The
